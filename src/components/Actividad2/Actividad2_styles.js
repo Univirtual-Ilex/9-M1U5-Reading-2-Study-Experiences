@@ -50,6 +50,8 @@ const styles = css`
         flex-direction: column;
         flex-wrap: wrap;
     }
+
+
 `
 
 export default styles

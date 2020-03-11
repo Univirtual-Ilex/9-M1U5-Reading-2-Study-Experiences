@@ -8,6 +8,38 @@ const mistyles = css`
 .hide{
     display: none;
 }
+
+
+.person{
+        width:200px;
+        height:215px;
+        cursor: pointer;
+        position:relative;
+        .person-container{
+            width:100%;
+            height:100%;
+            background-image: url(./src/sprite200x215.png);
+            background-repeat: no-repeat;
+            background-position: 0 0;
+            &:hover{
+                background-position-y:-215px ;
+            }
+            &.text1{
+
+            }
+            &.text2{
+                background-position-x:-200px;
+
+            }
+        }
+    }
+.position-relative{
+    position:relative;
+}
+.inline_list{
+    font-size:0.8em;
+    color:${Ilex.color_grisMedio}
+}
 `
 
 export const DraggablesContainer = styled.div`

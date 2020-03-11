@@ -25,7 +25,7 @@ const ButtonRadio_base = ({buttonId,setCheckedState, text, arrId, nameb,...props
 	            	name={nameb}
 	            >
             	</Checkbox>
-            	<span className="checkmark">{text} </span>
+            	<span className={`checkmark ${text === 'TRUE' ? 'true' : text === 'FALSE' ? 'false' : 'n-m' }`}>{text} </span>
             </label>
         </div>
     )
