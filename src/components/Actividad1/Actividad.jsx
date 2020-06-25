@@ -82,7 +82,7 @@ const Actividad_base = ({staticContext, ...props}) => {
         <Container bgImage='./src/bg_actividad1.png' {...props} id="area" h={40} w={72}>
             
             <UiButtonsContainer>
-                <ButtonUi icon='ilx-ayuda' tooltip='click on the buttons to listen and read the activities, associate them with the texts below.' />
+                <ButtonUi icon='ilx-ayuda' tooltip='click on the buttons to read the activities, associate them with the texts below.' />
                 <ButtonUi icon='ilx-volver' tooltip='Start Again' onClick={ () => {window.location.reload()} } />
             </UiButtonsContainer>
             
