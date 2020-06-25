@@ -1,6 +1,6 @@
 import React from 'react';
 import Fondo from './components/Fondo'
-import {HashRouter, Route } from 'react-router-dom'
+import { HashRouter, Route } from 'react-router-dom'
 
 // eslint-disable-next-line
 import Modal from './components/Generales/Modal'
@@ -21,6 +21,11 @@ import Actividad2A from './components/Actividad2A/Actividad2A';
 // eslint-disable-next-line
 import Actividad3 from './components/Actividad3'
 
+/**
+ * ERRORES DE PATH:
+ * SI al compilar sale un error de PATH, se debe actualizar la versión de React-Scripts del package.json
+ * En este caso particular se pasó de la 3.3.1 a la 3.4.1 
+ */
 
 /**
  * Ruta /home
