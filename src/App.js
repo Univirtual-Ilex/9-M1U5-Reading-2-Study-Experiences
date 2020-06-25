@@ -60,7 +60,6 @@ const App = () => {
         <HashRouter>
           <Route path='/' exact component={Home} />
           <Route path='/actividad1' component={Actividad1} />
-          <Route path='/actividad2' component={Actividad2} />
         </HashRouter>
 
       </Fondo>

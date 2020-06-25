@@ -27,7 +27,7 @@ const data = [
     },
     {
       "right": 0,
-      "answer": 'true',
+      "answer": 'false',
       "text": "She thinks all classes were interesting in high school."
     },
     {
